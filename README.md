@@ -1,10 +1,6 @@
 # NASA Farm Adaptation
 
-Decision-support application for the NASA 2026 Space Apps Challenge, "Adapting
-Farms with NASA Data". The MVP focuses on helping farmers assess whether land
-is suitable for Arabica coffee now and over a selected future horizon, detect
-climate risks, and explore ways to improve conditions for existing coffee
-plantations.
+Decision-support application for the NASA 2026 Space Apps Challenge, "Adapting Farms with NASA Data".
 
 The repository is a small monorepo with independent frontend, backend, and model components. The current implementation is infrastructure-only: it verifies that the frontend can call the backend and that the backend health endpoint responds.
 

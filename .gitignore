@@ -42,5 +42,3 @@ data/external/*
 .idea/
 .DS_Store
 Thumbs.db
-
-papers/

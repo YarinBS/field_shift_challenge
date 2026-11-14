@@ -3,11 +3,10 @@
 ## Mission and scope
 
 This repository is a decision-support application for the NASA 2026 Space Apps
-Challenge, “Adapting Farms with NASA Data.” The product goal is to help farmers assess Arabica coffee suitability over a
-future horizon, understand climate risks, and explore evidence-linked
-interventions using environmental evidence and transparent trade-offs. The
-challenge framing and the team’s proposed product scope are not interchangeable;
-see [docs/MISSION.md](docs/MISSION.md).
+Challenge, “Adapting Farms with NASA Data.” The product goal is to help farmers
+compare crop-rotation strategies using environmental evidence, constraints, and
+transparent trade-offs. The challenge framing and the team’s proposed product
+scope are not interchangeable; see [docs/MISSION.md](docs/MISSION.md).
 
 The current repository is infrastructure-only. Do not describe planned
 integrations, recommendations, or scientific claims as implemented or validated.
@@ -43,3 +42,4 @@ when behavior or decisions change.
 - [docs/DECISIONS.md](docs/DECISIONS.md) records important decisions and rationale.
 - [docs/DATASETS.md](docs/DATASETS.md) is the status registry for datasets.
 - [docs/API_CONTRACT.md](docs/API_CONTRACT.md) is the shared HTTP contract.
+
