@@ -18,8 +18,19 @@ blocked pending a decision or dependency.
 
 ## Planned
 
-- [ ] Select MVP geography, crops, users, and farmer priorities.
+- [ ] Select MVP coffee geography, Arabica/coffee scope, users, and farmer
+      priorities.
+- [ ] Define the user-selected planning horizon `X` years and measurable
+      coffee-suitability indicators; do not treat it as a validated yield
+      forecast.
 - [ ] Select and test one climate/precipitation source and one soil/vegetation source.
+- [ ] Implement comparison of at least three strategies, including the existing
+      rotation, with evidence, benefits, information gaps, and risks per strategy.
+- [ ] Add farmer inputs for current crop, local soil type, and water
+      availability; demonstrate how changing these inputs changes the
+      water-use, soil-health, and climate-risk comparison.
+- [ ] Define and source interim-crop and management-aid requirements for
+      coffee establishment or renovation windows.
 - [ ] Define provenance schema, quality checks, units, and aggregation windows.
 - [ ] Define crop requirements and rotation constraints with authoritative references.
 - [ ] Implement a small, explainable suitability and rotation baseline.
@@ -36,4 +47,3 @@ blocked pending a decision or dependency.
   validation criteria are not confirmed.
 - [blocked] Optimization/ML selection: depends on data quality, labels, and
   baseline evaluation.
-

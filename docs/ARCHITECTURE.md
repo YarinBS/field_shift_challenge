@@ -18,10 +18,11 @@ requests remain same-origin. The frontend depends on the backend health check.
 ## Target shape (proposed)
 
 The backend should eventually separate request validation, source adapters,
-normalization/derived indicators, crop rules, strategy evaluation, and response
-serialization. The model package should remain independently testable and
-CPU-compatible. The frontend should present input, assumptions, evidence,
-recommendations, and alternatives without owning domain calculations.
+normalization/derived indicators, coffee and interim-crop rules, strategy
+evaluation, and response serialization. The model package should remain
+independently testable and CPU-compatible. The frontend should present farmer
+inputs (including horizon `X`), assumptions, evidence, recommendations,
+management-aid options, and alternatives without owning domain calculations.
 
 This is a boundary proposal, not an authorization to add all layers now. Build
 only the smallest slice needed by the roadmap.
@@ -43,4 +44,3 @@ environment variables, avoid machine-specific paths, support Windows/macOS/Linux
 and prefer CPU defaults. See [docs/DATASETS.md](DATASETS.md) for status before
 adding an adapter and [docs/API_CONTRACT.md](API_CONTRACT.md) before changing
 interfaces.
-

@@ -4,6 +4,11 @@ This is a candidate-source investigation, not a claim that every source will
 be used. Official documentation is the primary reference. Access, licensing,
 version, and product-level caveats must be rechecked before integration.
 
+The official challenge's complete Resources-tab catalog is maintained in
+[OFFICIAL_CHALLENGE.md](OFFICIAL_CHALLENGE.md). The records below are the
+smaller set investigated in more detail by this repository; they are not a
+replacement for that official catalog.
+
 ## Candidate records
 
 The fields below deliberately say “confirm” where the official source is
@@ -56,6 +61,18 @@ product-specific or where this repository has not tested an access path.
 - **Potential use:** Vegetation/land-surface context and seasonal signals.
 - **Limitations:** Cloud contamination, revisit/cadence, land-cover interpretation, and product quality flags matter.
 - **Status:** Candidate only; product selection and access not tested.
+
+### NASA MODIS MOD13Q1 v6.1 (selected candidate)
+
+- **Documentation:** [Earthdata product record](https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod13q1-061)
+- **Coverage/resolution:** Global product generated every 16 days at 250 m; confirm the selected granule and coverage for the MVP geography.
+- **Variables:** NDVI, EVI, and associated quality layers.
+- **Access/authentication:** NASA Earthdata/LP DAAC distribution; account and distribution route must be confirmed before integration.
+- **License/restrictions:** Follow current Earthdata/LP DAAC terms and attribution requirements.
+- **Formats:** Product distribution format is product-specific and must be confirmed.
+- **Potential use:** Seasonal vegetation context and anomaly features, never a standalone crop or soil-health measurement.
+- **Limitations:** Clouds, aerosols, quality flags, mixed pixels, and phenology confounding require masking and cautious interpretation.
+- **Status:** Product documentation inspected 2026-11-14; access and representative retrieval not tested.
 
 ### NASA Earthdata discovery services
 

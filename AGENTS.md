@@ -7,6 +7,9 @@ Challenge, “Adapting Farms with NASA Data.” The product goal is to help farm
 compare crop-rotation strategies using environmental evidence, constraints, and
 transparent trade-offs. The challenge framing and the team’s proposed product
 scope are not interchangeable; see [docs/MISSION.md](docs/MISSION.md).
+The official challenge requirements, resource catalog, and Global Offers
+inventory are recorded in
+[docs/OFFICIAL_CHALLENGE.md](docs/OFFICIAL_CHALLENGE.md).
 
 The current repository is infrastructure-only. Do not describe planned
 integrations, recommendations, or scientific claims as implemented or validated.
@@ -16,7 +19,8 @@ integrations, recommendations, or scientific claims as implemented or validated.
 Before making architectural changes, read [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md),
 [docs/API_CONTRACT.md](docs/API_CONTRACT.md), [docs/DECISIONS.md](docs/DECISIONS.md),
 and [docs/ROADMAP.md](docs/ROADMAP.md). For data work, also read
-[docs/DATA_SOURCES.md](docs/DATA_SOURCES.md) and [docs/DATASETS.md](docs/DATASETS.md).
+[docs/DATA_SOURCES.md](docs/DATA_SOURCES.md), [docs/DATASETS.md](docs/DATASETS.md),
+and [docs/OFFICIAL_CHALLENGE.md](docs/OFFICIAL_CHALLENGE.md).
 For development commands and testing conventions, read
 [docs/DEVELOPMENT.md](docs/DEVELOPMENT.md). Update the relevant documentation
 when behavior or decisions change.
@@ -42,4 +46,3 @@ when behavior or decisions change.
 - [docs/DECISIONS.md](docs/DECISIONS.md) records important decisions and rationale.
 - [docs/DATASETS.md](docs/DATASETS.md) is the status registry for datasets.
 - [docs/API_CONTRACT.md](docs/API_CONTRACT.md) is the shared HTTP contract.
-

@@ -50,3 +50,8 @@ Copy `.env.example` to `.env` to override documented local settings. Secrets, AP
 - On Windows and macOS, ensure Docker Desktop is running and that the repository is shared with Docker if prompted.
 
 See the component READMEs for API and development details.
+
+The official challenge requirements, complete Resources-tab catalog, and 2026
+Global Offers inventory are tracked in
+[`docs/OFFICIAL_CHALLENGE.md`](docs/OFFICIAL_CHALLENGE.md). Offers are optional
+and may require provider-specific eligibility, verification, or billing.

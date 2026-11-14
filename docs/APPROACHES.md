@@ -10,18 +10,22 @@ every derived value. Window definitions and drought metric remain to be chosen.
 
 ## Crop suitability
 
-Represent each crop with explicit requirements and constraints: temperature
-range, water demand, season/calendar, soil properties, and tolerance or risk
-signals. Compare normalized farm indicators with those requirements and return
-both fit and limiting factors. Requirements must be sourced or clearly labeled
-as assumptions; they are not yet selected.
+Represent coffee and each interim crop with explicit requirements and
+constraints: temperature range, water demand, season/calendar, soil properties,
+and tolerance or risk signals. Compare normalized farm indicators with those
+requirements over a user-selected horizon and return both fit and limiting
+factors. This is a suitability assessment, not a yield forecast. Requirements
+must be sourced or clearly labeled as assumptions; they are not yet selected.
 
 ## Crop rotation
 
-Evaluate multi-season or multi-year sequences for crop compatibility, soil
-health proxies, water requirements, seasonal feasibility, and farmer priorities.
-Return alternatives and trade-offs, not only a single score. Agronomic
-interaction rules and planning horizon remain under investigation.
+Evaluate existing coffee management plus at least two alternatives, including
+interim crops or cover crops during explicitly labeled establishment or
+renovation windows. Compare multi-season or multi-year sequences for crop
+compatibility, soil-health proxies, water requirements, climate risk, seasonal
+feasibility, management aids, and farmer priorities. Return evidence,
+benefits, gaps, risks, and trade-offs, not only a single score. Agronomic
+interaction rules and the planning horizon remain under investigation.
 
 ## Recommendation engine options
 
@@ -35,7 +39,7 @@ interaction rules and planning horizon remain under investigation.
    validation, monitoring, and explainability.
 
 **Proposed default:** begin with rules plus transparent scoring, then add
-optimization only when the data and constraints justify it. ML is not selected
-and must not be introduced merely to use ML. No recommendation method is yet
-scientifically validated.
-
+optimization only when the data and constraints justify it. AI may help
+explain or organize evidence, but ML is not selected and must not be
+introduced merely to use AI. No recommendation method is yet scientifically
+validated.
