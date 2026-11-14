@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>NASA Farm Adaptation</title>
+  </head>
+  <body>
+    <main>
+      <h1>NASA Farm Adaptation</h1>
+      <p>Infrastructure verification</p>
+      <p id="health">Checking backend connection...</p>
+    </main>
+    <script>
+      fetch("/api/health")
+        .then((response) => {
+          if (!response.ok) throw new Error(`HTTP ${response.status}`);
+          return response.json();
+        })
+        .then((data) => {
+          document.querySelector("#health").textContent =
+            `Backend: ${data.status} (${data.service})`;
+        })
+        .catch(() => {
+          document.querySelector("#health").textContent =
+            "Backend connection unavailable.";
+        });
+    </script>
+  </body>
+</html>
