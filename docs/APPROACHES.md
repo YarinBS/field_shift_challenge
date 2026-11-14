@@ -5,23 +5,30 @@
 Proposed pipeline: retrieve observations for a farm location or region,
 validate units and quality flags, aggregate meaningful windows (season,
 month, rolling drought period), and derive rainfall patterns, temperature
-trends, drought exposure, and soil-moisture indicators. Preserve provenance for
-every derived value. Window definitions and drought metric remain to be chosen.
+trends, drought exposure, soil-moisture indicators, elevation, and terrain
+constraints. Preserve provenance for every derived value. Window definitions,
+future projection method, and drought metric remain to be chosen.
 
-## Crop suitability
+## Arabica suitability
 
-Represent each crop with explicit requirements and constraints: temperature
-range, water demand, season/calendar, soil properties, and tolerance or risk
-signals. Compare normalized farm indicators with those requirements and return
-both fit and limiting factors. Requirements must be sourced or clearly labeled
-as assumptions; they are not yet selected.
+Represent Arabica coffee with explicit requirements and constraints, including
+temperature range, rainfall and dry-season pattern, elevation/terrain,
+soil properties, water stress, and exposure to extreme heat, cold, drought, and
+heavy rainfall. Compare normalized patch indicators with those requirements
+and return a suitability category or score plus limiting factors. Requirements
+must be sourced or clearly labeled as assumptions; they are not yet selected.
 
-## Crop rotation
+## Future suitability and interventions
 
-Evaluate multi-season or multi-year sequences for crop compatibility, soil
-health proxies, water requirements, seasonal feasibility, and farmer priorities.
-Return alternatives and trade-offs, not only a single score. Agronomic
-interaction rules and planning horizon remain under investigation.
+Evaluate suitability for a selected future point or period over a planning
+horizon of `X` years. The output should compare current baseline conditions
+with projected conditions and expose the assumptions, uncertainty, and
+climate factors driving any change.
+
+For already planted coffee, return evidence-linked interventions such as shade
+management, irrigation or water conservation, soil cover, erosion control, and
+heat or frost preparation only when the relevant risk is present. These are
+decision-support suggestions, not prescriptive agronomic advice.
 
 ## Recommendation engine options
 
@@ -38,4 +45,3 @@ interaction rules and planning horizon remain under investigation.
 optimization only when the data and constraints justify it. ML is not selected
 and must not be introduced merely to use ML. No recommendation method is yet
 scientifically validated.
-

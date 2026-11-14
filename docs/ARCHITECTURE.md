@@ -18,19 +18,21 @@ requests remain same-origin. The frontend depends on the backend health check.
 ## Target shape (proposed)
 
 The backend should eventually separate request validation, source adapters,
-normalization/derived indicators, crop rules, strategy evaluation, and response
-serialization. The model package should remain independently testable and
-CPU-compatible. The frontend should present input, assumptions, evidence,
-recommendations, and alternatives without owning domain calculations.
+normalization/derived indicators, Arabica suitability rules, climate-risk
+warning generation, intervention mapping, and response serialization. The
+model package should remain independently testable and CPU-compatible. The
+frontend should present location and horizon inputs, the suitability heatmap,
+warnings, assumptions, evidence, and interventions without owning domain
+calculations.
 
 This is a boundary proposal, not an authorization to add all layers now. Build
 only the smallest slice needed by the roadmap.
 
 ## Data flow
 
-`farm input -> source adapters -> provenance-preserving normalized observations
--> derived indicators -> crop/rotation evaluation -> explained API response
--> frontend presentation`
+`farm location + horizon -> source adapters -> provenance-preserving normalized
+observations -> derived indicators -> Arabica suitability and risk evaluation
+-> warnings/interventions -> explained API response -> frontend map and panels`
 
 Each derived value must retain source, retrieval period, transformation, units,
 and quality/uncertainty metadata where available. Raw and processed data remain
@@ -43,4 +45,3 @@ environment variables, avoid machine-specific paths, support Windows/macOS/Linux
 and prefer CPU defaults. See [docs/DATASETS.md](DATASETS.md) for status before
 adding an adapter and [docs/API_CONTRACT.md](API_CONTRACT.md) before changing
 interfaces.
-

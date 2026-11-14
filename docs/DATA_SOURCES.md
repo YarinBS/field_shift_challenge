@@ -17,7 +17,8 @@ product-specific or where this repository has not tested an access path.
 - **Access/authentication:** Documented web services; authentication requirement for the selected service is not established.
 - **License/restrictions:** Confirm current POWER terms and citation requirements before redistribution.
 - **Formats:** Service response format is request-specific; confirm selected JSON/CSV or other format.
-- **Potential use:** Climate baselines, rainfall patterns, temperature trends, and solar context.
+- **Potential use:** Climate baselines, rainfall patterns, temperature trends,
+  solar context, and future-risk indicators for Arabica suitability.
 - **Limitations:** Product lineage, interpolation, units, missing values, and parameter availability must be checked.
 - **Status:** Documentation inspected; API not tested.
 
@@ -77,7 +78,8 @@ product-specific or where this repository has not tested an access path.
 - **Access/authentication:** Public maps and documented services; the official page currently reports that the REST API is paused and is beta software.
 - **License/restrictions:** CC BY 4.0; preserve attribution and check current terms.
 - **Formats:** Service/download format is route-specific and must be confirmed.
-- **Potential use:** Soil constraints, crop requirements, and soil-health context.
+- **Potential use:** Soil constraints and soil-moisture context for Arabica
+  suitability and interventions.
 - **Limitations:** Predictions and uncertainty are not field measurements; depth aggregation and API availability require care.
 - **Status:** Documentation inspected; REST access not tested.
 
@@ -89,7 +91,8 @@ product-specific or where this repository has not tested an access path.
 - **Access/authentication:** Public web data access; dataset-specific API and authentication details require confirmation.
 - **License/restrictions:** Confirm FAO dataset-specific terms and citation requirements.
 - **Formats:** Download/API format is dataset-specific and must be confirmed.
-- **Potential use:** Regional crop context and plausibility checks, not automatically field-level suitability.
+- **Potential use:** Regional coffee context and plausibility checks, not
+  automatically field-level suitability.
 - **Limitations:** Statistics may not represent a particular farm or provide agronomic requirements.
 - **Status:** Catalog inspected; no data retrieved.
 
@@ -97,7 +100,8 @@ product-specific or where this repository has not tested an access path.
 
 - **Provider/documentation:** To be selected for the MVP region.
 - **Coverage/resolution:** Expected to be locally relevant; temporal/spatial resolution is unknown until a source is selected.
-- **Variables:** Candidate crop calendars, advisories, water restrictions, soil surveys, and crop requirements.
+- **Variables:** Candidate coffee calendars, advisories, water restrictions,
+  soil surveys, Arabica requirements, and intervention guidance.
 - **Access/authentication:** To be determined by provider.
 - **License/restrictions:** Must be confirmed before use or redistribution.
 - **Formats:** To be determined.

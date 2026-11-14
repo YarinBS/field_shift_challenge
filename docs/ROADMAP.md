@@ -18,22 +18,22 @@ blocked pending a decision or dependency.
 
 ## Planned
 
-- [ ] Select MVP geography, crops, users, and farmer priorities.
+- [ ] Select MVP geography, user scenarios, and supported future horizons.
 - [ ] Select and test one climate/precipitation source and one soil/vegetation source.
-- [ ] Define provenance schema, quality checks, units, and aggregation windows.
-- [ ] Define crop requirements and rotation constraints with authoritative references.
-- [ ] Implement a small, explainable suitability and rotation baseline.
-- [ ] Specify and implement versioned farm, strategy, and recommendation API schemas.
-- [ ] Build frontend input, comparison, explanations, uncertainty, and provenance views.
+- [ ] Define Arabica requirements for climate, terrain, soil, water, and extreme events with authoritative references.
+- [ ] Define provenance schema, quality checks, units, aggregation windows, and projection assumptions.
+- [ ] Implement a small, explainable Arabica patch-suitability baseline.
+- [ ] Implement climate-extreme warnings and evidence-linked coffee interventions.
+- [ ] Specify and implement versioned location, suitability, warning, and intervention API schemas.
+- [ ] Build frontend horizon input, suitability heatmap, explanations, uncertainty, and provenance views.
 - [ ] Add representative fixtures, integration tests, and reproducible validation.
 - [ ] Conduct domain/expert review and document limitations before demo claims.
 
 ## Blocked or unresolved
 
-- [blocked] Production recommendation claims: no validation protocol or expert
-  review has been established.
+- [blocked] Production suitability or intervention claims: no validation
+  protocol or expert review has been established.
 - [blocked] Dataset integration: region, product selection, access terms, and
   validation criteria are not confirmed.
 - [blocked] Optimization/ML selection: depends on data quality, labels, and
   baseline evaluation.
-
